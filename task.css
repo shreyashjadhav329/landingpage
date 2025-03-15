@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?business,technology') center/cover no-repeat;
+    color: white;
+    
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#contact {
+    max-width: 600px;
+    margin: auto;
+}
